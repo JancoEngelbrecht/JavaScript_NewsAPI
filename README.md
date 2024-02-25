@@ -5,6 +5,8 @@ Contents of this Repo:
 2. Fetch API from www.newsapi.org and display in application.
 3. Create and Fetch a Local Host Server API.
 
+![image](https://github.com/JancoEngelbrecht/JavaScript_NewsAPI/assets/75523652/587a0582-bc56-4e1e-9934-b539539cb0ad)
+
 ------------------------------------------------------
 JavaScript Notes
 ------------------------------------------------------
