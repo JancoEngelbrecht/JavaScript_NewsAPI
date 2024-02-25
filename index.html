@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <link rel="stylesheet" href="output.css" />
+  
+  </head>
+  <body>
+    <!-- <h1 class="text-4xl font-bold text-center pt-6">Weather & News App</h1>
+  <div class="flex flex-row pt-6">
+    <div class="container mx-auto px-4 text-center basis-1/2">
+      <button class="bg-blue-500 text-white font-bold py-2 px-4 rounded" id="getWeather">Get Weather</button>
+      <div id="weatherResult"></div>
+    </div>
+    <div class="container mx-auto px-4mt-8 text-center basis-1/2 ">
+      <button class="bg-green-500 text-white font-bold py-2 px-4 rounded" id="getNews">Get News</button>
+      <div class="" id="newsesults"></div>
+    </div>
+  </div> -->
+  <div name="banner" class="relative w-auto h-96 flex items-center justify-center"> 
+    <div name="banner-owner" class="absolute w-64 h-64 flex flex-col items-center transition-transform transform hover:scale-110">
+      <div name="owner-image" class="w-40 h-40">
+        <img src="/images/image_janco.jpg" class="rounded-full border-2 border-gray-200 shadow-2xl"></div>
+      <div name="owner-name" class="mt-2 w-40 h-6 text-center text-gray-600 font-semibold text-sm">Janco Engelbrecht</div>
+      <div name="owner-role" class="mt-1 w-40 h-6 text-center text-gray-400 text-sm font-bold">Developer</div>
+      <div name="owner-actions" class="absolute bottom-0 left flex flex-row">
+        <button name="action-more" id="action-more" class="border-2 border-gray-200 shadow rounded w-32 h-6 text-center bg-white transition-transform transform hover:scale-110 flex items-center justify-center">More News</button>
+        <button name="action-back" id="action-back" class="border-2 border-gray-200 shadow rounded w-32 h-6 ml-5 text-center bg-white transition-transform transform hover:scale-110 flex items-center justify-center">Go back</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w-full h-auto flex items-center justify-center text-4xl font-sans"><h1 class="">News Headlines</h1></div>
+
+  <div class=" w-auto grid grid-rows-1 grid-flow-col gap-5 mt-5 ml-5 mr-5 mb-5">
+  
+    <div name="news-headline1" class="row-span-1 w-auto h-full border-2 rounded-2xl bg-white shadow-xl">
+      <div id="articleHeader1" class=" w-auto text-center mt-5 mb-2"></div>
+      <div id="articleImage1" class="mb-5 flex items-center justify-center"></div>
+      <div id="articleDescription1" class="w-full h-auto flex items-center justify-center"></div>
+    </div>
+  
+    <div name="news-headline2" class="row-span-1 w-auto h-full border-2 rounded-2xl bg-white shadow-xl">
+      <div id="articleHeader2" class=" w-auto  text-center mt-5 mb-2"></div>
+      <div id="articleImage2" class="mb-5 flex items-center justify-center"></div>
+      <div id="articleDescription2" class="w-full h-auto flex items-center justify-center"></div>
+    </div>
+  
+    <div name="news-headline3" class="row-span-1 w-auto h-full border-2 rounded-2xl bg-white shadow-xl">
+      <div id="articleHeader3" class=" w-auto text-center mt-5 mb-2"></div>
+      <div id="articleImage3" class="mb-5 flex items-center justify-center"></div>
+      <div id="articleDescription3" class="w-full h-auto flex items-center justify-center"></div>
+    </div>
+  </div>
+  <div class="w-full h-auto flex items-center justify-center text-4xl font-sans mb-5"></div>
+
+  <div name="weather" class="relative bottom-10 justify-center flex flex-row mt-10">
+    <button name="action-weather" id="action-weather" class="border-2 border-gray-200 shadow rounded w-32 h-10 text-center bg-white transition-transform transform hover:scale-110 flex items-center justify-center">Get Weather</button>
+  <div name="weatherResult" id="weatherResult">
+    
+  </div>
+  </div>
+  
+    <script src="js/script.js"></script>
+  </body>
+</html>
