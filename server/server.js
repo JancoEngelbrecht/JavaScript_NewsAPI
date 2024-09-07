@@ -1,7 +1,9 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const port = 3000;
+
+// Use the port assigned by Azure, or default to 3000 locally
+const port = process.env.PORT || 3000;
 
 // Middleware to enable CORS for security
 app.use(cors());
@@ -23,6 +25,7 @@ app.get('/weather', (req, res) => {
   res.json(data);
 });
 
+// Start the server
 app.listen(port, () => {
-  console.log(`Server is running at http://localhost:${port}`);
+  console.log(`Server is running on port ${port}`);
 });
