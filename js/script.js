@@ -51,7 +51,7 @@ function countSubtract(){
 document.addEventListener("DOMContentLoaded", () => {
   
   // Fetch weather data from your API
-  fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=a5c9c48cee5b4d81b4492fa66bf61661')
+  fetch('https://newsheadlines-c0haf4f6d4bvhaa7.westeurope-01.azurewebsites.net/news')
     .then(response => response.json())
     .then(data => {
       console.log(data)
@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", () => {
 actionMore.addEventListener("click", () => {
   
   // Fetch weather data from your API
-  fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=a5c9c48cee5b4d81b4492fa66bf61661')
+  fetch('https://newsheadlines-c0haf4f6d4bvhaa7.westeurope-01.azurewebsites.net/news')
     .then(response => response.json())
     .then(data => {
       console.log(data)
@@ -238,7 +238,7 @@ actionMore.addEventListener("click", () => {
 actionBack.addEventListener("click", () => {
   
    // Fetch weather data from your API
-   fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=a5c9c48cee5b4d81b4492fa66bf61661')
+   fetch('https://newsheadlines-c0haf4f6d4bvhaa7.westeurope-01.azurewebsites.net/news')
    .then(response => response.json())
    .then(data => {
      console.log(data)
