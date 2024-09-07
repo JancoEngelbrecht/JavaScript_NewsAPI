@@ -1,6 +1,6 @@
 document.getElementById('action-weather').addEventListener('click', () => {
   // Fetch weather data from your API
-  fetch('http://newsheadlines-c0haf4f6d4bvhaa7.westeurope-01.azurewebsites.net/weather')
+  fetch('https://newsheadlines-c0haf4f6d4bvhaa7.westeurope-01.azurewebsites.net/weather')
     .then(response => response.json())
     .then(data => {
       document.getElementById('weatherResult').innerHTML = `
