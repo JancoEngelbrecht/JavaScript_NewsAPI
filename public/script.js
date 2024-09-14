@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <a href="${data.articles[countA].url}" target="_blank"><img src="${data.articles[countA].urlToImage}" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
       } else {
         document.getElementById('articleImage1').innerHTML = ` 
-        <a href="${data.articles[countA].url}" target="_blank"><img src="images/breakingnews.jpg" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
+        <a href="${data.articles[countA].url}" target="_blank"><img src="../images/breakingnews.jpg" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
       }
 
       if(data.articles[countA].description){
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <a href="${data.articles[countB].url}" target="_blank"><img src="${data.articles[countB].urlToImage}" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
       } else {
         document.getElementById('articleImage2').innerHTML = ` 
-        <a href="${data.articles[countB].url}" target="_blank"><img src="images/breakingnews.jpg" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
+        <a href="${data.articles[countB].url}" target="_blank"><img src="../images/breakingnews.jpg" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
       }
 
       if(data.articles[countB].description){
@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <a href="${data.articles[countC].url}" target="_blank"><img src="${data.articles[countC].urlToImage}" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
       } else {
         document.getElementById('articleImage3').innerHTML = ` 
-        <a href="${data.articles[countC].url}" target="_blank"><img src="images/breakingnews.jpg" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
+        <a href="${data.articles[countC].url}" target="_blank"><img src="../images/breakingnews.jpg" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
       }
 
       if(data.articles[countC].description){
@@ -164,7 +164,7 @@ actionMore.addEventListener("click", () => {
         <a href="${data.articles[countA].url}" target="_blank"><img src="${data.articles[countA].urlToImage}" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
       } else {
         document.getElementById('articleImage1').innerHTML = ` 
-        <a href="${data.articles[countA].url}" target="_blank"><img src="images/breakingnews.jpg" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
+        <a href="${data.articles[countA].url}" target="_blank"><img src="../images/breakingnews.jpg" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
       }
 
       if(data.articles[countA].description){
@@ -191,7 +191,7 @@ actionMore.addEventListener("click", () => {
         <a href="${data.articles[countB].url}" target="_blank"><img src="${data.articles[countB].urlToImage}" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
       } else {
         document.getElementById('articleImage2').innerHTML = ` 
-        <a href="${data.articles[countB].url}" target="_blank"><img src="images/breakingnews.jpg" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
+        <a href="${data.articles[countB].url}" target="_blank"><img src="../images/breakingnews.jpg" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
       }
 
       if(data.articles[countB].description){
@@ -218,7 +218,7 @@ actionMore.addEventListener("click", () => {
         <a href="${data.articles[countC].url}" target="_blank"><img src="${data.articles[countC].urlToImage}" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
       } else {
         document.getElementById('articleImage3').innerHTML = ` 
-        <a href="${data.articles[countC].url}" target="_blank"><img src="images/breakingnews.jpg" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
+        <a href="${data.articles[countC].url}" target="_blank"><img src="../images/breakingnews.jpg" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
       }
 
       if(data.articles[countC].description){
@@ -257,7 +257,7 @@ actionBack.addEventListener("click", () => {
        <a href="${data.articles[countA].url}" target="_blank"><img src="${data.articles[countA].urlToImage}" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
      } else {
        document.getElementById('articleImage1').innerHTML = ` 
-       <a href="${data.articles[countA].url}" target="_blank"><img src="images/breakingnews.jpg" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
+       <a href="${data.articles[countA].url}" target="_blank"><img src="../images/breakingnews.jpg" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
      }
 
      if(data.articles[countA].description){
@@ -284,7 +284,7 @@ actionBack.addEventListener("click", () => {
        <a href="${data.articles[countB].url}" target="_blank"><img src="${data.articles[countB].urlToImage}" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
      } else {
        document.getElementById('articleImage2').innerHTML = ` 
-       <a href="${data.articles[countB].url}" target="_blank"><img src="images/breakingnews.jpg" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
+       <a href="${data.articles[countB].url}" target="_blank"><img src="../images/breakingnews.jpg" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
      }
 
      if(data.articles[countB].description){
@@ -311,7 +311,7 @@ actionBack.addEventListener("click", () => {
        <a href="${data.articles[countC].url}" target="_blank"><img src="${data.articles[countC].urlToImage}" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
      } else {
        document.getElementById('articleImage3').innerHTML = ` 
-       <a href="${data.articles[countC].url}" target="_blank"><img src="images/breakingnews.jpg" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
+       <a href="${data.articles[countC].url}" target="_blank"><img src="../images/breakingnews.jpg" class="w-full h-auto pl-6 pr-6" alt=""></a>`;
      }
 
      if(data.articles[countC].description){
