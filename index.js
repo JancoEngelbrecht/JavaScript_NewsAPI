@@ -12,9 +12,12 @@ app.use(cors());
 // Middleware to parse JSON
 app.use(express.json());
 
-// Route to get home
+// Serve static files from the 'public' directory (where your index.html is located)
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Route for serving index.html
 app.get('/', (req, res) => {
-  res.json("janco");
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 //Get news from NewsAPI
