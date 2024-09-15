@@ -1,5 +1,8 @@
 JavaScript_NewsAPI
 -------------------
+
+View WebApp: https://newsheadlines-c0haf4f6d4bvhaa7.westeurope-01.azurewebsites.net/
+
 Contents of this Repo: 
 1. Make use of tailwind for CSS
 2. Fetch API from www.newsapi.org and display in application.
